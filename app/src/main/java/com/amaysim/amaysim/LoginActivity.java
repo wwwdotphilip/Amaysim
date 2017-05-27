@@ -40,6 +40,8 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+        //Automatically populated msn edit text to save time when testing.
         msn.setText(mCollection.getIncluded()[0].msn);
     }
 
