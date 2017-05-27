@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Amaysim</string>
+    <string name="msn">MSN</string>
+    <string name="login">Login</string>
+    <string name="contact_number">Contact Number:</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="next_billing_date">Next Billing Date:</string>
+    <string name="unbilled_charges">Unbilled Charges:</string>
+    <string name="payment_type">Payment Type:</string>
+    <string name="email_address">Email Address:</string>
+    <string name="email_address_verified">Email Address Verified:</string>
+    <string name="email_subscription_status">Email Subscription Status:</string>
+    <string name="data_usage_threshold">Data usage threshold</string>
+    <string name="auto_renewal">Auto renewal</string>
+    <string name="primary_subscription">Primary subscription</string>
+    <string name="unlimited_text">Unlimited Text</string>
+    <string name="unlimited_talk">Unlimited Talk</string>
+    <string name="unlimited_international_text">Unlimited International Text</string>
+    <string name="unlimited_international_talk">Unlimited International Talk</string>
+</resources>

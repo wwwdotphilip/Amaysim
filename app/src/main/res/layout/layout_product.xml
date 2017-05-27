@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/boarder_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:showIn="@layout/activity_information">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Product"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/info_text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unlimited_text"
+        android:textSize="@dimen/info_text_size" />
+
+    <CheckBox
+        android:id="@+id/cbUnlimitedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unlimited_talk"
+        android:textSize="@dimen/info_text_size" />
+
+    <CheckBox
+        android:id="@+id/cbUnlimitedTalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unlimited_international_text"
+        android:textSize="@dimen/info_text_size" />
+
+    <CheckBox
+        android:id="@+id/cbUnlimitedInternationalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unlimited_international_talk"
+        android:textSize="@dimen/info_text_size" />
+
+    <CheckBox
+        android:id="@+id/cbUnlimitedInternationalTalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false" />
+</LinearLayout>
